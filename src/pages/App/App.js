@@ -1,24 +1,35 @@
 import './App.css';
+import {useState} from 'react'
+import NavBar from '../../components/NavBar/NavBar';
+import {Routes, Route} from 'react-router-dom';
+import Main from '../Main/Main';
+import NyBrewInfo from '../NyBrewInfo/NyBrewInfo'
+import NyBrewList from '../NyBrewList/NyBrewList';
+import FlBrewInfo from '../FlBrewInfo/FlBrewInfo';
+import FlBrewList from '../FlBrewList/FlBrewList';
+
+
 
 function App() {
+
+  const [user, setUser] = useState('')
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+<main className="App">
+        <>
+        <NavBar user={user} setUser={setUser}/>
+        <Routes>
+          <Route path='/' element={<Main />}/>
+          <Route path='/nybreweries' element={<NyBrewList/>}/>
+          <Route path='/flbreweries' element={<FlBrewList/>}/>
+          <Route path='/nybrewery/:id' element={<NyBrewInfo/>}/>
+          <Route path='/flbrewery/:id' element={<FlBrewInfo/>}/>
+        </Routes>
+        </>
+    </main>
   );
 }
 
 export default App;
+
+ 
