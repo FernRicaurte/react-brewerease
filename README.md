@@ -39,6 +39,4 @@ React app that allows a user to search NY and FL breweries. It inclubes a home p
 Deployed on:
 
 Netlify
-
-[
-](https://main--chic-cannoli-47ace8.netlify.app/)
+(https://main--chic-cannoli-47ace8.netlify.app/)
