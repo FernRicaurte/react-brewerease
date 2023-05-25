@@ -1,6 +1,6 @@
 import './App.css';
 import {useState} from 'react'
-import NavBar from '../../components/Navbar/Navbar';
+import Navbar from '../../components/Navbar/Navbar';
 import {Routes, Route} from 'react-router-dom';
 import Main from '../Main/Main';
 import BrewInfo from '../BrewInfo/BrewInfo'
@@ -15,7 +15,7 @@ function App() {
   return (
 <main className="App">
         <>
-        <NavBar user={user} setUser={setUser}/>
+        <Navbar user={user} setUser={setUser}/>
         <Routes>
           <Route path='/' element={<Main />}/>
           <Route path='/:state' element={<StateBrewList/>}/>
