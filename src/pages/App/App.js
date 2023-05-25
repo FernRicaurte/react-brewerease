@@ -1,7 +1,7 @@
 import './App.css';
 import {useState} from 'react'
-import Navbar from '../../components/Navbar/Navbar';
 import {Routes, Route} from 'react-router-dom';
+import Navbar from '../../components/Navbar/Navbar';
 import Main from '../Main/Main';
 import BrewInfo from '../BrewInfo/BrewInfo'
 import StateBrewList from '../StateBrewList/StateBrewList';
