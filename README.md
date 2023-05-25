@@ -1,5 +1,7 @@
 ## BrewerEase
 
+React app that allows a user to search NY and FL breweries. It inclubes a home page and button, NY breweries page and Fl breweries page, both can be accesse by clicking their respective buttons on the navigation bar. Once in the breweries page, a user can click on a particular breweries name to view some of its info.
+
 ## Technologies used in this project:
 1.React
 2.JavaScript
