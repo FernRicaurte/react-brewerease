@@ -21,7 +21,10 @@ export default function Main() {
           <>
            <img src="https://i.imgur.com/HnGEAnl.png" alt="BrewerEase Logo" onClick={handleClick} />
           <p>
-            A beer quote or an About
+           <i>
+            "Milk is for babies. When you grow up, you have to drink beer."
+          </i> 
+           <br/>- Arnold Schwarzenegger
           </p>
           </>
         }

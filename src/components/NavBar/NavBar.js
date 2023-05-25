@@ -17,12 +17,9 @@ export default function NavBar({user, setUser}) {
       <Link to='/florida'>
         <button className='nav-button'>Florida</button>
       </Link>
-      <Link to='/newyork'>
+      <Link to='/new_york'>
         <button className='nav-button'>New York</button>
       </Link>
-       <Link to='' onClick={handleLogOut}>
-        <button className='nav-button'>Log Out</button>
-       </Link>
     </nav>
   )
 }
