@@ -36,5 +36,9 @@ React app that allows a user to search NY and FL breweries. It inclubes a home p
 3. fix the heading in the NY and FL list pages,
 4. make the website url's clickable so that it takes the user to the website.
 
+Deployed on:
 
+Netlify
 
+[
+](https://main--chic-cannoli-47ace8.netlify.app/)
