@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+## BrewerEase
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Technologies used in this project:
+1.React
+2.JavaScript
+3.CSS
+4. Open Brewery DB API
 
-## Available Scripts
+## Home Page
 
-In the project directory, you can run:
+![Screenshot 2023-05-25 at 11 48 15 AM](https://github.com/FernRicaurte/react-brewerease/assets/128169706/c2a1243c-e968-4d96-b63a-8c1b4cb208e6)
 
-### `npm start`
+![Screenshot 2023-05-25 at 11 48 39 AM](https://github.com/FernRicaurte/react-brewerease/assets/128169706/b9656fe7-3d5c-42ce-a99f-ded45a146420)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## New York Breweries Page and Florida Breweries Page
 
-### `npm test`
+![Screenshot 2023-05-25 at 11 48 58 AM](https://github.com/FernRicaurte/react-brewerease/assets/128169706/442941d0-069f-4a72-aa25-bf54e488b395)
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![Screenshot 2023-05-25 at 11 49 15 AM](https://github.com/FernRicaurte/react-brewerease/assets/128169706/1c0327ad-2846-41be-b839-87146b304694)
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## New York Brewery Info Page and Florida Brewery Info Page
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+![Screenshot 2023-05-25 at 11 51 07 AM](https://github.com/FernRicaurte/react-brewerease/assets/128169706/83158f05-30a4-4489-bd62-3b187b967d15)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+![Screenshot 2023-05-25 at 12 01 43 PM](https://github.com/FernRicaurte/react-brewerease/assets/128169706/00021809-f601-4b20-9e5c-54618e847a03)
 
-### `npm run eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Icebox:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. create a login/logout and auth
+2. include searchbar to be able to search for any state and other parameters like city, type, etc.
+3. fix the heading in the NY and FL list pages,
+4. make the website url's clickable so that it takes the user to the website.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
