@@ -1,8 +1,8 @@
-import './Navbar.css'
+import './NavBar.css'
 
 import {Link} from 'react-router-dom'
 
-export default function Navbar({user, setUser}) {
+export default function NavBar({user, setUser}) {
 
 
   return (
