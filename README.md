@@ -6,7 +6,8 @@ React app that allows a user to search NY and FL breweries. It inclubes a home p
 1.React
 2.JavaScript
 3.CSS
-4. Open Brewery DB API
+4.HTML
+5. Open Brewery DB API
 
 ## Home Page
 
